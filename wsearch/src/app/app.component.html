@@ -1,4 +1,5 @@
 <div class="container">
+    <h1>Enter the search term to be searched on wikipedia below:</h1>
     <app-search-bar (submitted)=onTerm($event)></app-search-bar>
     <app-page-list *ngIf="pages.length" [pages]="pages"></app-page-list>
 </div>
